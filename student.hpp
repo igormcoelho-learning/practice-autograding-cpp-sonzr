@@ -1,3 +1,4 @@
+// Everson dos Santos Ramos de Sousa
 #pragma once // prevents multiple definitions
 
 #include <iostream> // print library
@@ -13,11 +14,11 @@ int mul(int a, int b);
 
 int add(int a, int b)
 {
-   return 0; // TODO: fix
+   return add; // TODO: fix
 }
 
 // Exercise 2: implements function 'mul', that multiplies two numbers
 int mul(int a, int b)
 {
-   return 0; // TODO: fix
+   return mul; // TODO: fix
 }
