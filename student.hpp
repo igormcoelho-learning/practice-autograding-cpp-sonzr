@@ -12,8 +12,9 @@ int mul(int a, int b);
 // ===============
 // implementations
 
-int add(int a, int b)
+int add()
 {
+   int a, int b
    scanf ("%d %d", &a, &b)
    add = a + b;
    printf ("%d\n", add); 
@@ -21,8 +22,9 @@ int add(int a, int b)
 }
 
 // Exercise 2: implements function 'mul', that multiplies two numbers
-int mul(int a, int b)
+int mul()
 {
+   int a, int b;
    scanf ("%d %d", &a, &b)
    mul = a * b;
    printf ("%d\n", mul);
