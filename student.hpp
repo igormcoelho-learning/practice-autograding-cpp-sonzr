@@ -1,7 +1,7 @@
 // Everson dos Santos Ramos de Sousa
 //#pragma once // prevents multiple definitions
 
-#include<stdio.h> // print library
+// print library
 // Exercise 1: implements function 'add', that adds two numbers
 //int add(int a, int b);
 
@@ -11,23 +11,22 @@
 // ===============
 // implementations
 
-int add()
-{
-   int a, int b;
+#include<stdio.h> 
+int main() {
+   int a, b;
    int add;
    scanf ("%d %d", &a, &b)
    add = a + b;
-   printf ("%d\n", add); 
+   printf ("%d", add); 
    return 0; // TODO: fix
 }
 
 // Exercise 2: implements function 'mul', that multiplies two numbers
-int mul()
-{
-   int a, int b;
+int main() {
+   int a, b;
    int mul;
    scanf ("%d %d", &a, &b)
    mul = a * b;
-   printf ("%d\n", mul);
+   printf ("%d", mul);
    return 0; // TODO: fix
 }
