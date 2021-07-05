@@ -14,11 +14,19 @@ int mul(int a, int b);
 
 int add(int a, int b)
 {
-   return add; // TODO: fix
+   int a, b;
+   scanf ("%d %d", &a, &b)
+   add = a + b;
+   printf ("%d\n", add); 
+   return 0; // TODO: fix
 }
 
 // Exercise 2: implements function 'mul', that multiplies two numbers
 int mul(int a, int b)
 {
-   return mul; // TODO: fix
+   int a, b;
+   scanf ("%d %d", &a, &b)
+   mul = a * b;
+   printf ("%d\n", mul);
+   return 0; // TODO: fix
 }
